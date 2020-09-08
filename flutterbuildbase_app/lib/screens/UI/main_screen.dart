@@ -179,7 +179,8 @@ class _MainScreenState extends State<MainScreen> {
                 ),
               ),
               Expanded(flex: 2, child: Container()),
-              Expanded(flex: 5, child: theChangedContainer())
+              Expanded(flex: 3, child: theChangedContainer()),
+              Expanded(flex: 2, child: Container())
             ],
           )),
     );
@@ -208,7 +209,7 @@ class _MainScreenState extends State<MainScreen> {
         });
       },
       child: Container(
-        width: 160,
+        width: 140,
         margin: const EdgeInsets.only(left: 20.0, right: 20.0),
         color: colorOfChangedContainer,
         child: Row(
